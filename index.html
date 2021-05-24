@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Maurizia Nonnis Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger" id="hamburger"></span>
+            </button>
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#creativity" class="nav__link">Creativity</a></li>
+
+                </ul>
+            </nav>
+            
+        </header>
+
+        
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                <strong>Maurizia Nonnis</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="img/maura.png" alt="Profile picture" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+
+        
+        <section class="my-services" id="services">
+            <div class="wrapper-div">
+                <h2 class="section__title section__title--services">Languages</h2>
+            </div>
+
+                <div class="services-wrapper">
+                    <div class="service">
+                        <img src="img/python.svg" class="lang-icons">
+                    </div> <!-- / services -->
+                        
+                    <div class="service">
+                        <img src="img/js.svg" class="lang-icons">
+                    </div> <!-- / services -->
+                        
+                    <div class="service">             
+                        <img src="img/html.svg" class="lang-icons">
+                    </div>
+        
+                    <div class="service">
+                        <img src="img/css.svg" class="lang-icons">          
+                    </div> <!-- / services -->
+                </div>
+                <h2 class="section__title section__title--services frameworks">Frameworks</h2>
+                <div class="react-container">
+                    <div class="service react">
+                        <img src="img/react.png" class="lang-icons react">
+                    </div>
+                </div>
+                
+               
+        </section>      
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Italian Front-End Developer</p>
+           
+           <div class="about-me__body">
+               <p>Studying languages has always been my priority throughout my educational path, and as a result today I can proudly claim to speak: a fluent English and Spanish, some Portuguese and a bit of French. As my language skills suggest, I had been working as a freelance translator and proofreader for 6+ years, which has always been an easy and quick way for me to get money by having fun and refining my skills at the same time. But then, at some point in 2020, something shifted in me. I felt like I needed a new educational adventure. This was when I decided it was finally time for me to learn “other ways to communicate” as well: the <span class="accent_text"><strong>programming languages </strong></span> world started calling me!</p>
+               <p>So I started this exciting programming journey with <span class="accent_text"><strong>Python</strong></span> at first, then I switched to the front-end side with <span class="accent_text"><strong>JavaScript</strong></span>, <span class="accent_text"><strong>HTML</strong></span> and <span class="accent_text"><strong>CSS</strong></span>. I also decided to get into frameworks through <span class="accent_text"><strong>React</strong></span> only for now, but I'm open to learn some new ones in the future. 
+                If the programming world has taught me one thing, that surely is how there’s always something new to learn in life, which I know it could be scary to some people... but I personally love it. It’s my fuel.</p>
+                <p>And last but not least, I’m a visual artist who generally loves art in all of its form. In my spare time I like making collages and illustrations from the laptop, mainly by using softwares such as GIMP and Adobe Photoshop. I've also experimented quite a lot with vector images and traditional drawings during the past couple of years.</p>
+               <p>If you want to know more about my artistic vein, just <a href="https://www.beyondphotography.online/interviewed-maura-nonnis" target="_blank" class="interview-link" id="interview-link">click here</a>.</p>
+           </div>
+           
+           
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work" id="section-title">My work</h2>
+            <p class="section__subtitle section__subtitle--work" id="section-subtitle">Projects</p>
+
+            
+            <div class="portfolio">
+
+                <!-- Portfolio item 01 -->
+                <a href="https://mauranonnis.github.io/music-player/" class="portfolio__item">
+                    <img src="img/player.png" alt="" class="portfolio__img" id="player">
+                </a>
+
+                <!-- Portfolio item 02 -->
+                <a href="https://scrimba.com/scrim/cbKGQLSv" class="portfolio__item">
+                    <img src="img/signup.png" alt="" class="portfolio__img" id="player">
+                </a>
+
+                <!-- Portfolio item 03 -->
+                <a href="https://codepen.io/Holyvisitor/full/gOmmbRG" class="portfolio__item">
+                    <img src="img/matchpoint.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="https://codepen.io/Holyvisitor/full/jOyrxbK" class="portfolio__item">
+                    <img src="img/pacman.png" alt="" class="portfolio__img" >
+                </a>
+                
+            </div>
+        </section>
+
+        <!-- Creativity -->
+        <section class="my-work" id="creativity">
+            <h2 class="section__title section__title--work" id="section-title-second">Creative side</h2>
+            <p class="section__subtitle section__subtitle--work" id="section-subtitle-second">Some of my collages and illustrations</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/KARMA IN PLASTIC.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/OVERWH.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/SEEELF.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/whatareyouwaitingfor.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/MOON HAND.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 07 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/open your mind.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 08 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/iseeyou.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 09 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/accab2.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 10 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/IMNOTYOURS.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 11 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/egosmall.png" alt="" class="portfolio__img">
+                </a>
+                
+                
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            
+            <a id="footer-link" class="footer__link">maurizianonnis@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/holyvisitor/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/maurizia-nonnis-27061a212/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/MauraNonnis">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/MauraNonnis">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io/Holyvisitor/pens/public">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
