@@ -498,3 +498,10 @@ header {
 #work {
     background-color: var(--clr-dark);
 }
+
+@media (max-width: 650px) {
+    .portfolio {
+        grid-template-columns: 1fr;
+
+    }
+}
